@@ -97,18 +97,18 @@ Example:
 
 2️⃣ Enum for Test Results
 
-typedef enum 
-{
-    TEST_PASS,  /* The test passed */
-    TEST_FAIL,  /* The test failed */
-    TEST_OTHER  /* Any other status (e.g., skipped, timeout, error) */
-} TestResultType;
+    typedef enum 
+    {
+        TEST_PASS,  /* The test passed */
+        TEST_FAIL,  /* The test failed */
+        TEST_OTHER  /* Any other status (e.g., skipped, timeout, error) */
+    } TestResultType;
 
 3️⃣ Converting Test Results to Strings
 
     const char* test_result_to_string(TestResultType result);
-
-Returns "PASS", "FAIL", or "OTHER".
+    Returns "PASS", "FAIL", or "OTHER".
+    
 ## <div align="center">📝 Example Tests</div>
 
 Example test for string functions:
